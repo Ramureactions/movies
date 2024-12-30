@@ -20,13 +20,13 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7405687693:AAEe_783ENiLQEZjhYU_LwspUf6uBE-
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1434313993').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/@ram_reaction143") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002071130481'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002187721993'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/ibommachat2')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vaidhadiramu51:9491219691@cluster0.yxgpuu6.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "vaidhadiramu51")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
